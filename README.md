@@ -6,4 +6,4 @@ to run
 2. install project dependencies: `npm install`
 3. build it: `npm run build`
 4. deploy: `npm run deploy` (only I have right at the moment)
-   - for this you need to instal firebase build tools: npm install -g firebase-tools
+   -to deploy, you need to install firebase build tools: npm install -g firebase-tools
