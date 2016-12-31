@@ -1,0 +1,158 @@
+#special-task{
+  font-weight:bold;
+  font-size:24px;
+  color:red;
+} 
+.done {
+  text-decoration:line-through
+}
+/* body{
+  background-image:url("https://pbs.twimg.com/profile_images/616919985156452352/AkbIkAx9.jpg")
+ 
+} */
+ul {
+  list-style: none;
+  
+}
+li:hover {
+  color:red;
+  background-color:white;
+  
+}
+ul li:before {
+content:'\2713';
+margin: 0 0.5em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+@keyframes change_color{
+  from{
+    background-color:blue
+  }
+  to{
+    background-color:red
+  }
+}
+.header {
+  margin: 5px;
+  border: 1px solid blue;
+  margin : 6px 6px;
+  animation-name:change_color;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  
+ 
+}
+
+
+.header h1{
+  color:white;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.amiin {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-picture, .my-info {
+  flex: 1 0;
+  min-width: 360px;
+  margin: 10px 5px;
+  border: 5px dotted red;
+  text-align: center;
+  height: 600px;
+}
+.my-picture img{
+  width:300px;
+  height:600px;
+}
+img {
+  opacity:0.5;
+}
+img:hover{
+  opacity:1.0;
+ 
+}
+
+.footer {
+  background-color: white;
+  width:100%;
+  justify-content: center;
+  height: 50px;
+  border-color: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.my-info, .my-home, .my-school {
+  height: 600px;
+} 
+
+#nav {
+  height: 70px;
+}
+#nav ul {
+  float: right;
+  list-style: outside none none !important;
+}
+#nav li {
+  display: inline-block;
+  padding: 8px 18px;
+}
+
+.my-interest, .my-aspiration, .my-country{
+  
+
+}
+#more-about-me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.my-interest, .my-aspiration, .my-country {
+  height: 250px;
+  flex: 1 0;
+  min-width: 360px;
+  margin: 10px 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+.my-image {
+  width: 150px;
+  height: 190px;
+}
+
+
+#social-media{
+  width:100%;
+    background-color:yellow;
+  display:flex;
+  flex-direction:row;
+    justify-content:space-around;
+}
+.social-item{
+  margin:20px;
+}
+#snapchat{
+  width:150px;
+    height:150px;
+}
+.my-country img{
+  width:350px;
+  height:200px;
+}

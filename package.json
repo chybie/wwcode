@@ -1,0 +1,15 @@
+{
+  "name": "wwcodekl",
+  "version": "1.0.0",
+  "description": "women who code kl",
+  "scripts": {
+    "clean": "rimraf public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wwcodekl",
+  "license": "ISC",
+  "devDependencies": {
+    "cpy-cli": "1.0.1",
+    "rimraf": "2.5.4"
+  }
+}

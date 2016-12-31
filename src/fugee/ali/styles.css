@@ -1,0 +1,190 @@
+.special-task{
+.css{
+  font-weight:bold;
+  font-size:30px;
+  color:yellow;
+}
+
+.html {
+  color:red;
+  font-size:30px;
+}
+  color:yellow;
+  font-size:30px;
+  font-weight:bold;
+}
+.brown {
+  color: brown;
+}
+.javascript{
+  color:blue;
+  font-size:30px;
+  style:italic;
+}
+.meet-lionel-messi{
+  color:pink;
+  font-size:30x;
+  
+}
+#read-harry-potter{
+  color:green;
+}
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+@keyframes change_color{
+  from {background-color:red}
+  to {background-color:blue}
+}
+.header {
+  margin: 5px;
+  border: 5px solid yellow;
+  background:blue;
+  animation-name:change_color;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in;
+}
+
+.img-responsive {
+  max-width: 100%;
+  opacity:0.5;
+  height:250px;
+  margin:15px;
+}
+
+.img-responsive:hover{
+  opacity:1.0;
+}
+
+.text-center {
+  color: yellow;
+  text-align: center;
+}
+
+.about-me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height:300px;
+}
+
+.my-picture, .my-info {
+  flex: 1 0;
+  font-size: 20px;
+  min-width: 360px;
+  margin: 10px 5px;
+  color: #582B8D;
+  border: 1px solid black;
+}
+.my-info {
+  padding: 15px;
+}
+
+.my-picture {
+  text-align: center;
+  background-color:  #b37700
+}
+
+.background {
+   background: linear-gradient(#0066ff,  #cce0ff);
+}
+
+.footer {
+  background-color:blue;
+  justify-content: center;
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top:10px;
+}
+
+.my-interest, .my-aspirations, .my-country {
+  height: 100px
+}
+
+#nav {
+  height: 70px;
+}
+
+#nav ul {
+/*   float: right; */
+  text-align: right;
+  list-style: outside none none;
+}
+
+#nav li {
+  display: inline-block;
+  padding: 8px 18px;
+}
+#nav a {
+  font-size: 14px;
+  font-family: Helvetica,Arial,sans-serif;
+  color: rgb(77,77,77);
+  text-decoration:  none;
+}
+#nav li.first {
+  background-color: #7CB0C3;
+}
+.my-info {
+  background-color: #DBD0E7;
+}
+#nav li.second {
+  background-color: #FFCC5C;
+}
+.my-interest {
+  background-color: #FFCC5C;
+}
+#nav li.third {
+  background-color: #F3716D;
+}
+.my-aspirations {
+  background-color: #F3716D;
+}
+#nav li.fourth {
+  background-color: #96CEB4;
+}
+.my-country {
+  background-color: #96CEB4;
+}
+
+#more-about-me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.my-interest, .my-aspirations, .my-country{
+    height: 500px;
+    flex: 1 0;
+    min-width: 360px;
+    margin: 10px 5px;
+    border: 1px solid black;
+    text-align: center;
+  
+}
+.my-img {
+  width: 200px;
+  height: 200px;
+   
+}
+#social-media{
+  width: 100%;
+  height:80px;
+  background-color: yellow;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social-item{
+  margin:5px;
+  height:70px;
+  
+}

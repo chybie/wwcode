@@ -1,0 +1,159 @@
+.blue{
+  color:blue;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+  background-image: url("http://il2.picdn.net/shutterstock/videos/561340/thumb/1.jpg");
+  
+}
+
+.img-responsive {
+  max-width: 100%;
+  opacity: 0.5;
+}
+.img-responsive:hover{
+  opacity:1.0;
+}
+@keyframes change-color{
+  from {background-color:black}
+  to {background-color:grey}
+}
+.header {
+  margin: 1px;
+  border: 2px dotted grey;
+  animation-name:change-color;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease-out;
+}
+
+.text-center {
+  text-align: center;
+}
+#info-text{
+  font-size: 20px;
+}
+.about-me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #e6ffe6;
+  border: 4px dashed grey;
+}
+
+.my-picture, .my-info {
+  flex: 1 0;
+  min-width: 250px;
+  margin: 10px 5px;
+  text-align: center;
+}
+.footer {
+  background-color: grey;
+  justify-content: center;
+  height: 30px;
+  border: 5px solid black;
+  display: flex;
+  color: blue;
+  align-items: center;
+}
+ .my-interest, .my-aspirations, .my-country {
+  height: 100px;
+  flex: 1 0;
+  min-width: 360px;
+  margin: 6px 7px;
+  border: 1px solid black;
+  text-align: center;
+   padding: 10px;
+}
+
+.my-interest, .my-aspirations, .my-country{
+  height: 500px;
+}
+
+#nav{
+  height: 70px;
+}
+#nav ul {
+  float: right;
+  list-style: outside none none;
+}
+#nav li {
+  display: inline-block;
+  padding: 8px 18px
+}
+#nav a {
+  font-size: 14px;
+  font-family: helvetica,arial,sans-serif;
+  color: rgb(77,77,77);
+  text-decoration: none;
+}
+#nav li.first {
+  background-color: #000000;
+}
+.my-info {
+  background-color: #7CB0C3;
+}
+#nav li.second {
+  background-color: #F0FFFF;
+}
+.my-intrest {
+  background-color: #FFCC5C;
+}
+#nav li.third {
+  background-color: #FFF8DC;
+}
+.my-aspirations {
+  background-color: #F3716D;
+}
+#nav li.fourth {
+  background-color: #A9A9A9;
+}
+.my-country {
+  background-color: #96CEB4;
+}
+#flex-container {
+  background-color: grey;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-item {
+  width: 100px;
+  height: 100px;
+}
+#more-about-me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.my-image {
+  width: 100px;  
+}
+#social-media {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social-item{
+  margin: 10px;
+  height:70px;
+}
+.my-info{
+  margin-right: 20px;
+  padding: 30px;
+}
+.my-social-media{
+  height: 5px;
+}
+#flag{
+  height: 100px;
+  
+}
