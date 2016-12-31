@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "women who code kl",
   "scripts": {
+    "start": "live-server dist/.",
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build": "cpy '**/*.{html,png,css}' '../dist/' --cwd=src --parents",
