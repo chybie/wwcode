@@ -6,7 +6,7 @@
     "start": "live-server dist/.",
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
-    "build": "cpy '**/*.{html,png,css}' '../dist/' --cwd=src --parents",
+    "build": "cpy '**/*.{html,png,css,jpg}' '../dist/' --cwd=src --parents",
     "deploy": "npm run build && firebase deploy"
   },
   "author": "wwcodekl",
